@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.medioambiente-body {
+    background-color: #eef6ee;
+}
+
+.astronomia-body {
+    background-color: #e8f0ff;
+}
+
+.salud-body {
+    background-color: #ffe8e8;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+.card {
+    background: white;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+
+.medioambiente .card {
+    border: 2px solid #79b781;
+}
+
+.astronomia .card {
+    border: 2px solid #6a8dd9;
+}
+
+.salud .card {
+    border: 2px solid #f28c8c;
+}
+
+
+button {
+    background: #6ea8ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+button:hover {
+    background: #4d91f2;
+}
